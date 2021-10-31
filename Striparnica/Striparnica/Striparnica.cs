@@ -19,8 +19,7 @@ namespace Striparnica
 
             return;
 
-            if (IZDAVAČI.Count > 10)
-                IZDAVAČI.Clear();
+    
         }
         /// <summary>
         /// METODA KOJOM SE DODAJE STRIP IZDAVAČU IZ IZDAVAČA
