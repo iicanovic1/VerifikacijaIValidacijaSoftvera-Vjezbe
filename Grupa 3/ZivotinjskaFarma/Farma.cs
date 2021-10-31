@@ -93,14 +93,10 @@ namespace ZivotinjskaFarma
 
         public void Metoda6(List<List<string>> informacije)
         {
-            int i = 0; foreach (var zivotinja in a) ;
+            int i = 0; 
                 foreach (var zivotinja in a)
             {
                 zivotinja.PregledajZivotinju(informacije[i].ElementAt(0), informacije[i].ElementAt(1), informacije[i].ElementAt(2));
-                i++;
-                i++;
-                i++;
-                i++;
                 i++;
             }
         }
