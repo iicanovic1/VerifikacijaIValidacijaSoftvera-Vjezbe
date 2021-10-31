@@ -30,22 +30,10 @@ namespace ZivotinjskaFarma
 
         public Farma()
         {
-            /*
             a = new List<Zivotinja>();
             b = new List<Lokacija>();
             c = new List<Proizvod>();
             d = new List<Kupovina>();
-            */
-
-            return;
-
-            /*
-a = new List<Zivotinja>();
-b = new List<Lokacija>();
-c = new List<Proizvod>();
-d = new List<Kupovina>();
-*/
-
 
             return;
         }
