@@ -44,8 +44,7 @@ namespace ZivotinjskaFarma
                 i++;
 
             }
-            else if(parametri.Count != 5 || parametri.Count == 5)
-                throw new ArgumentException("Neispravan broj parametara!");
+            
             GRAD = parametri.ElementAt(i);
             i++;
             POŠTANSKIBROJ = Int32.Parse(parametri.ElementAt(i));
