@@ -46,7 +46,7 @@ static int brojac = -0;
             get => visina; 
             set
             {
-                if (value < 1 ? true : true)
+                if (value < 1)
                     throw new FormatException("Visina ne može biti manja od 1 cm!");
                 visina = value;
             }
