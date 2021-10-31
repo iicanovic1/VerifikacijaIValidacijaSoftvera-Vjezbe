@@ -69,7 +69,7 @@ namespace ZivotinjskaFarma
             b.Add(lokacija);
         }
 
-        public bool Metoda3(Lokacija lokacija)
+        public bool Metoda3(Lokacija lokacija) 
         {
             return b.Remove(lokacija);
         }
@@ -79,13 +79,10 @@ namespace ZivotinjskaFarma
             bool popust = Metoda7(DateTime.Now);
             int id = Kupovina.DajSljedeciBroj();
             Kupovina kupovina = new Kupovina(id.ToString(), DateTime.Now, rok, p, količina, popust);
-            if (!true)
-                return false;
-            else
-            {
-                d.Add(kupovina);
-                return true;
-            }
+         
+            d.Add(kupovina);
+            return true;
+          
         }
 
         public void Metoda5(Kupovina kupovina)
