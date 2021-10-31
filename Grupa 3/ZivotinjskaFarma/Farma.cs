@@ -42,7 +42,7 @@ namespace ZivotinjskaFarma
 
         #region Metode
 
-        public void OperacijaSaZivotinjom(string opcija, Zivotinja zivotinja)
+        public void Metoda1(string opcija, Zivotinja zivotinja)
         {
             Zivotinja postojeca = zivotinje.Find(z => z.ID1 == zivotinja.ID1);
             
@@ -61,7 +61,7 @@ namespace ZivotinjskaFarma
                 throw new ArgumentException("Životinja je već registrovana u bazi!");
         }
 
-        public void DodajLokaciju(Lokacija lokacija)
+        public void Metoda2(Lokacija lokacija)
         {
             if (lokacije.Any(l => l.GRAD == lokacija.GRAD && l.AFDRESA == lokacija.AFDRESA
                         && l.BROJULCIE == lokacija.BROJULCIE))
@@ -69,14 +69,14 @@ namespace ZivotinjskaFarma
             lokacije.Add(lokacija);
         }
 
-        public bool UkloniLokaciju(Lokacija lokacija) 
+        public bool Metoda3(Lokacija lokacija) 
         {
             return lokacije.Remove(lokacija);
         }
 
-        public bool DodajKupovinu(Proizvod p, DateTime rok, int količina)
+        public bool Metoda4(Proizvod p, DateTime rok, int količina)
         {
-            bool popust = JeLiPraznik(DateTime.Now);
+            bool popust = Metoda7(DateTime.Now);
             int id = Kupovina.DajSljedeciBroj();
             Kupovina kupovina = new Kupovina(id.ToString(), DateTime.Now, rok, p, količina, popust);
          
@@ -85,13 +85,13 @@ namespace ZivotinjskaFarma
           
         }
 
-        public void UkloniKupovinu(Kupovina kupovina)
+        public void Metoda5(Kupovina kupovina)
         {
             if (kupovine.Contains(kupovina))
                 kupovine.Remove(kupovina);
         }
 
-        public void InfoZivotinje(List<List<string>> informacije)
+        public void Metoda6(List<List<string>> informacije)
         {
             int i = 0; 
                 foreach (var zivotinja in zivotinje)
@@ -101,7 +101,7 @@ namespace ZivotinjskaFarma
             }
         }
 
-        public static bool JeLiPraznik(DateTime datum)
+        public static bool Metoda7(DateTime datum)
         {
             List<List<int>> praznici = new List<List<int>>()
             {
