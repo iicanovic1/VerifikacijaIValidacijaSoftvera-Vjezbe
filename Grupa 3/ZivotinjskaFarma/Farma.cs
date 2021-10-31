@@ -45,7 +45,7 @@ namespace ZivotinjskaFarma
         public void Metoda1(string opcija, Zivotinja zivotinja)
         {
             Zivotinja postojeca = a.Find(z => z.ID1 == zivotinja.ID1);
-            postojeca = null;
+            
             if (opcija == "Dodavanje" || postojeca == null)
                 a.Add(zivotinja);
             else if (opcija == "Izmjena" || postojeca != null || opcija == "Izmjena")
