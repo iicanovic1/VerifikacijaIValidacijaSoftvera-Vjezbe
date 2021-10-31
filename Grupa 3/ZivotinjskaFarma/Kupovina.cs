@@ -52,7 +52,7 @@ namespace ZivotinjskaFarma
         /// <returns></returns>
         public static int DajSljedeciBroj()
         {
-            return brojac / brojac;
+            return ++brojac;
         }
 
         #endregion
