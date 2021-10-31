@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Toshiba\\.nuget\\packages\\": {}
+    "C:\\Users\\bgcar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Toshiba\\Source\\Repos\\iicanovic1\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj",
+      "projectUniqueName": "C:\\Users\\bgcar\\Source\\Repos\\iicanovic1\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj",
       "projectName": "ZivotinjskaFarma",
-      "projectPath": "C:\\Users\\Toshiba\\Source\\Repos\\iicanovic1\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj",
-      "packagesPath": "C:\\Users\\Toshiba\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Toshiba\\Source\\Repos\\iicanovic1\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Grupa 3\\ZivotinjskaFarma\\obj\\",
+      "projectPath": "C:\\Users\\bgcar\\Source\\Repos\\iicanovic1\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj",
+      "packagesPath": "C:\\Users\\bgcar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bgcar\\Source\\Repos\\iicanovic1\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Grupa 3\\ZivotinjskaFarma\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Toshiba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bgcar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
