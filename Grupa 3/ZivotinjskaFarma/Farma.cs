@@ -67,7 +67,6 @@ namespace ZivotinjskaFarma
                         && l.BROJULCIE == lokacija.BROJULCIE))
                 throw new InvalidOperationException("Ista lokacija je već zabilježena!");
             b.Add(lokacija);
-            throw new InvalidOperationException("Ista lokacija je već zabilježena!");
         }
 
         public bool Metoda3(Lokacija lokacija)
