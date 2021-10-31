@@ -32,7 +32,7 @@ namespace ZivotinjskaFarma
                     throw new InvalidOperationException("Unijeli ste vrstu proizvoda koja ne postoji!");
                 vrsta = value;
 
-                throw new Exception("Greška!");
+                
             }
         }
         public Zivotinja Proizvođač { get => z; set => z = value; }
